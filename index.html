@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css" type="text/css">
+    <title>Survey form</title>
+</head>
+<section class="container">
+        <h1 id="header">Survey Form</h1>
+        <p id="paragraph">Thank You For Taking Your time To Give Us Feedback</p>
+    <form action="Post" class="form">
+        <label for="name" id="name-label"><b>Name</b></label>
+        <br>
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" value="">
+        <br>
+        <br>
+        <label id="email-label"><b>Email</b></label>
+        <br>
+        <input  type="email" id="email" name="email" placeholder="Enter Your Email" value="">
+        <br>
+        <br>
+        <label id="age-label"><b>Age</b></label>
+        <br>
+        <input type="text" id="age" name="age" placeholder="Enter Your Age" value="">
+        <br>
+        <br>
+        <label id="role-label"><b>Choose A Role That Best Describes You</b></label>
+        <br>
+        <select name="dropdown" id="role">
+            <option selected disabled value="role">Select Your Role</option>
+            <option value="Fog">Fog</option>
+        </select>
+        <br>
+        <br>
+        <label id="product-label"><b>Would You Recommend Our Product To A Friend?</b></label>
+        <br>
+            <input type="radio" id="never" value="never">Never
+            <br>
+            <input type="radio" id="maybe" value="maybe">Maybe
+            <br>
+            <input type="radio" id="likely" value="likely">Likely
+            <br>
+            <input type="radio" id="def" value="definitely">Definitely
+        <br>
+        <br>
+        <label id="about-label"><b>Select Things That You Liked About Our Product</b></label>
+        <br>
+        <input type="checkbox" id="ui" value="ui">UI
+        <br>
+        <input type="checkbox" id="feature" value="features">Features
+        <br>
+        <input type="checkbox" id="service" value="service">Service
+        <br>
+        <input type="checkbox" id="simple" value="simpleness">Simpleness
+        <br>
+        <br>
+        <label id="remark-label"><b>Remarks</b></label>
+        <br>
+        <textarea name="remarks" id="remarks" rows="10" cols="40" placeholder="Tell Us How We Can Improve..."></textarea>
+        <br>
+        <br>
+        <input type="button" id="submit" value="Submit" >
+    </form>
+</section>
+
+</body>
+</html>
